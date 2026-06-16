@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="Response_landing_page.css">
+</head>
+
+<body>
+
+    <!-- =========================
+ LOADER
+========================= -->
+    <div id="loader">
+        <div class="loader-ring"></div>
+        <h2>Loading...</h2>
+    </div>
+
+    <!-- =========================
+ SCROLL PROGRESS BAR
+========================= -->
+    <div id="progressBar"></div>
+
+    <!-- =========================
+ PARTICLES BACKGROUND
+========================= -->
+    <div id="particles"></div>
+
+    <!-- =========================
+ NAVBAR
+========================= -->
+    <nav id="navbar">
+
+        <div class="logo">
+            <span>🚀</span> TechLanding
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-buttons">
+            <button id="themeBtn">🌙</button>
+            <div class="hamburger">
+                ☰
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- =========================
+ HERO SECTION
+========================= -->
+    <section id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <h1>
+                Responsive Landing Page
+            </h1>
+
+            <h2>
+                <span id="typing"></span>
+            </h2>
+
+            <p>
+                Modern Responsive Website with
+                Animations, AI Chatbot and Interactive UI
+            </p>
+
+            <div class="hero-buttons">
+                <button class="btn primary-btn">
+                    Get Started
+                </button>
+
+                <button class="btn secondary-btn">
+                    Learn More
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+ ABOUT SECTION
+========================= -->
+    <section id="about" class="hidden">
+
+        <h2 class="section-title">
+            About Us
+        </h2>
+
+        <div class="about-container">
+
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3">
+            </div>
+
+            <div class="about-content">
+
+                <h3>
+                    We Create Amazing Digital Experiences
+                </h3>
+
+                <p>
+                    We design modern, responsive,
+                    high-performance websites and
+                    web applications using the latest technologies.
+                </p>
+
+                <div class="stats">
+
+                    <div class="stat-box">
+                        <h1 class="counter" data-target="100">
+                            0
+                        </h1>
+                        <p>Projects</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h1 class="counter" data-target="50">
+                            0
+                        </h1>
+                        <p>Clients</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h1 class="counter" data-target="5">
+                            0
+                        </h1>
+                        <p>Years</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+ SERVICES
+========================= -->
+    <section id="services" class="hidden">
+
+        <h2 class="section-title">
+            Our Services
+        </h2>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="icon">💻</div>
+                <h3>Web Development</h3>
+                <p>Modern responsive websites.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🎨</div>
+                <h3>UI Design</h3>
+                <p>Beautiful user interfaces.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">📱</div>
+                <h3>Mobile Design</h3>
+                <p>Mobile-first experience.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🚀</div>
+                <h3>SEO Optimization</h3>
+                <p>Increase visibility online.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">☁️</div>
+                <h3>Cloud Hosting</h3>
+                <p>Secure cloud deployment.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🔒</div>
+                <h3>Security</h3>
+                <p>Protection and monitoring.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+ FEATURES
+========================= -->
+    <section id="features" class="hidden">
+
+        <h2 class="section-title">
+            Features
+        </h2>
+
+        <div class="features-grid">
+
+            <div class="feature-box">
+                ⚡ Fast Performance
+            </div>
+
+            <div class="feature-box">
+                📱 Mobile Responsive
+            </div>
+
+            <div class="feature-box">
+                🌐 Modern Design
+            </div>
+
+            <div class="feature-box">
+                🤖 AI Assistant
+            </div>
+
+            <div class="feature-box">
+                🔥 Animations
+            </div>
+
+            <div class="feature-box">
+                🔒 Secure Platform
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+ TESTIMONIALS
+========================= -->
+    <section id="testimonials" class="hidden">
+
+        <h2 class="section-title">
+            Client Reviews
+        </h2>
+
+        <div class="testimonial-slider">
+
+            <div class="testimonial active-slide">
+                <p>
+                    "Amazing work and great support."
+                </p>
+                <h4>John Doe</h4>
+            </div>
+
+            <div class="testimonial">
+                <p>
+                    "Professional design and smooth experience."
+                </p>
+                <h4>Sarah Smith</h4>
+            </div>
+
+            <div class="testimonial">
+                <p>
+                    "Highly recommended."
+                </p>
+                <h4>Michael Brown</h4>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+ FAQ
+========================= -->
+    <section id="faq" class="hidden">
+
+        <h2 class="section-title">
+            Frequently Asked Questions
+        </h2>
+
+        <div class="faq-container">
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What services do you provide?
+                </div>
+
+                <div class="faq-answer">
+                    Web development, design and consulting.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Is this website responsive?
+                </div>
+
+                <div class="faq-answer">
+                    Yes, fully responsive for all devices.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Does it include AI?
+                </div>
+
+                <div class="faq-answer">
+                    Yes, an offline AI chatbot is included.
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+ CONTACT
+========================= -->
+    <section id="contact" class="hidden">
+
+        <h2 class="section-title">
+            Contact Us
+        </h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Get In Touch</h3>
+
+                <p>📍 Kota, Rajasthan</p>
+                <p>📧 info@example.com</p>
+                <p>📞 +91 9876543210</p>
+
+            </div>
+
+            <form id="contactForm">
+
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="email" placeholder="Your Email" required>
+
+                <textarea placeholder="Your Message" required></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+    <section id="contact" class="hidden">
+
+        <h2 class="section-title">Contact Us</h2>
+
+        <div class="contact-container">
+
+            <!-- Contact Info -->
+
+            <!-- Contact Form -->
+
+        </div>
+
+        <div id="submittedData"></div>
+
+    </section>
+
+
+
+
+    <!-- =========================
+ FOOTER
+========================= -->
+    <footer>
+
+        <h2>TechLanding</h2>
+
+        <p>
+            Modern Responsive Landing Page
+        </p>
+
+        <div class="socials">
+
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+
+        </div>
+
+        <p>
+            © 2026 All Rights Reserved
+        </p>
+
+    </footer>
+
+    <!-- =========================
+ BACK TO TOP
+========================= -->
+    <button id="topBtn">
+        ↑
+    </button>
+
+    <!-- =========================
+ AI CHATBOT
+========================= -->
+    <div id="chatbot">
+
+        <div id="chat-header">
+            🤖 AI Assistant
+        </div>
+
+        <div id="chat-body">
+
+            <div class="bot-message">
+                Hello! How can I help you?
+            </div>
+
+        </div>
+
+        <div id="chat-input-area">
+
+            <input type="text" id="userInput" placeholder="Type a message...">
+
+            <button id="sendBtn">
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+    <button id="chatToggle">
+        🤖
+    </button>
+
+
+    <script src="Response_landing_page.js"></script>
+</body>
+
+</html>
